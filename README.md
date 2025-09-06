@@ -67,7 +67,7 @@ Add the following configuration to your MCP client settings:
 {
   "mcpServers": {
     "univer": {
-      "url": "https://mcp.univer.ai/mcp/?univer_session_id=<SESSION_ID>",
+      "url": "https://mcp.univer.ai/mcp/?univer_session_id=default",
       "type": "http",
       "headers": {
         "Authorization": "Bearer <API_KEY>"
@@ -77,7 +77,7 @@ Add the following configuration to your MCP client settings:
 }
 ```
 > [!TIP]
-> `<SESSION_ID>` is the session id of your Univer session. `default` is the default session id.
+> `univer_session_id` is the session id of your Univer MCP session. Optional, `default` by default. Keep in mind that the session id MUST be consistent with the session id of your Univer instance.
 
 <details>
 <summary>Cursor</summary>
