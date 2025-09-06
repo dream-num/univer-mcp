@@ -16,10 +16,15 @@ Univer MCP is a Model Context Protocol (MCP) server that enables AI applications
 - **📊 Spreadsheet Operations**: Full support for creating, editing, and manipulating spreadsheets
 - **🔧 Extensible Architecture**: Built on Univer's plugin system for custom functionality
 - **⚡ High Performance**: Leverages Univer's optimized rendering and calculation engines
-- **📈 Advanced Features**: Formulas, conditional formatting, data validation, and more
+- **📦 Advanced Features**: Formulas, conditional formatting, data validation, and more
 - **🤖 AI Integration**: Seamless integration with MCP-compatible AI applications
+- **📈 Chart Support[WIP]**: Creating and updating charts in spreadsheets
+- **🔗 Pivot Table[WIP]**: Creating and updating pivot tables in spreadsheets
 - **🌐 Cross-Platform[WIP]**: Works across web browsers and Node.js environments
 - **🔄 Real-time Collaboration[WIP]**: Support for collaborative editing and real-time updates
+
+
+https://github.com/user-attachments/assets/a1d4677c-60c8-403c-a569-06e595b42cec
 
 
 ## Requirements
