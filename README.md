@@ -24,7 +24,8 @@ Univer MCP is a Model Context Protocol (MCP) server that enables AI applications
 - **🔄 Real-time Collaboration[WIP]**: Support for collaborative editing and real-time updates
 
 
-https://github.com/user-attachments/assets/a1d4677c-60c8-403c-a569-06e595b42cec
+https://github.com/user-attachments/assets/c77c7927-335e-47fd-9cf7-852d4880d4b9
+
 
 
 ## Requirements
