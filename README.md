@@ -9,15 +9,30 @@
 
 Univer MCP is a Model Context Protocol (MCP) server that enables AI applications to interact with and automate spreadsheet operations using the powerful [Univer](https://github.com/dream-num/univer) framework. It bridges the gap between AI language models and spreadsheet functionality, allowing for intelligent spreadsheets processing and automation.
 
+> ⚠️ **Early Stage**: Univer MCP is currently in early development. We welcome feedback, suggestions, and collaboration from the community to help shape its future direction.
+
 ## Key Features
 
 - **📊 Spreadsheet Operations**: Full support for creating, editing, and manipulating spreadsheets
 - **🔧 Extensible Architecture**: Built on Univer's plugin system for custom functionality
 - **⚡ High Performance**: Leverages Univer's optimized rendering and calculation engines
-- **📈 Advanced Features**: Formulas, conditional formatting, data validation, and more
+- **📦 Advanced Features**: Formulas, conditional formatting, data validation, and more
 - **🤖 AI Integration**: Seamless integration with MCP-compatible AI applications
+- **📈 Chart Support[WIP]**: Creating and updating charts in spreadsheets
+- **🔗 Pivot Table[WIP]**: Creating and updating pivot tables in spreadsheets
 - **🌐 Cross-Platform[WIP]**: Works across web browsers and Node.js environments
 - **🔄 Real-time Collaboration[WIP]**: Support for collaborative editing and real-time updates
+
+
+https://github.com/user-attachments/assets/a1d4677c-60c8-403c-a569-06e595b42cec
+
+
+## Requirements
+
+**Multi-modal Model required**: Some Univer mcp tools support returning images for better understanding, so the model you choose should ideally support multimodality.
+
+> Plain text mode is currently experimental(NOT supported yet); it may be supported in the future. Any suggestions in this regard are very welcome.
+
 
 ## How It Works
 
