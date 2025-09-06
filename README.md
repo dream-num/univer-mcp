@@ -24,10 +24,24 @@ Univer MCP is a Model Context Protocol (MCP) server that enables AI applications
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/58626cac-831d-4aa0-9c44-b3d2ff5262d9" />
 
 
+- MCP host: such as cursor, claude code, or the agents you built.  
+- Univer MCP Server: provides the endpoint for univer mcp, which proxies tool calls to the univer instance for execution.
+- mcp-bridge: this is a [univer plugin](https://docs.univer.ai/guides/recipes/architecture/univer#plugins) used to handle various spreadsheet commands in mcp.
+- univer instance: the runtime environment of univer (spreadsheet).
+
+
 ## Quick Start
 
 ### Get API Key
 First, you need to get an API key from the [API Keys page](https://console.univer.ai/apikeys). This key will be used to authenticate your MCP server connection.
+
+### Start Univer Instance
+
+Before you talk to LLM, you need to launch a univer instance, which is a spreadsheet runtime where you will see the contents of the spreadsheet and how it is being operated.
+
+There are two ways to start a univer instance quickly:
+1. Use the [Univer MCP Playground](https://console.univer.ai/playground) to start a univer instance.
+2. Use the [Univer MCP Start-kit](https://github.com/dream-num/univer-mcp-start-kit) to start a univer instance.
 
 ### Configure MCP Server
 
