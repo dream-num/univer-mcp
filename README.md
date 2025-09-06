@@ -21,8 +21,8 @@ Univer MCP is a Model Context Protocol (MCP) server that enables AI applications
 
 ## How It Works
 
-<!-- PLACEHOLDER: Add principle explanation and technical diagrams here -->
-*This section will contain detailed explanations of how Univer MCP works, including architecture diagrams and workflow illustrations.*
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/58626cac-831d-4aa0-9c44-b3d2ff5262d9" />
+
 
 ## Quick Start
 
@@ -33,7 +33,7 @@ First, you need to get an API key from the [API Keys page](https://console.unive
 
 Add the following configuration to your MCP client settings:
 
-```
+```json
 {
   "mcpServers": {
     "univer": {
@@ -46,8 +46,8 @@ Add the following configuration to your MCP client settings:
   }
 }
 ```
-[!]Tips:
-- `<SESSION_ID>` is the session id of your Univer session. `default` is the default session id.
+> [!TIP]
+> `<SESSION_ID>` is the session id of your Univer session. `default` is the default session id.
 
 <details>
 <summary>Cursor</summary>
@@ -64,7 +64,7 @@ Click the button to install:
 <summary>Claude Code</summary>
 
 ```bash
-claude mcp add --transport http univer-mcp https://mcp.univer.ai/mcp -H 'Authorization: Bearer {Your UNIVER_API_KEY}'
+claude mcp add --transport http univer-mcp https://mcp.univer.ai/mcp/ -H 'Authorization: Bearer {Your UNIVER_API_KEY}'
 ```
 </details>
 
@@ -72,7 +72,7 @@ claude mcp add --transport http univer-mcp https://mcp.univer.ai/mcp -H 'Authori
 <summary>Gemini CLI</summary>
 
 ```bash
-gemini mcp add --transport http univer-mcp https://mcp.univer.ai/mcp --header "Authorization: Bearer {Your UNIVER_API_KEY}"
+gemini mcp add --transport http univer-mcp https://mcp.univer.ai/mcp/ --header "Authorization: Bearer {Your UNIVER_API_KEY}"
 ```
 </details>
 
